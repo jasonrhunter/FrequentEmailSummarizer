@@ -74,7 +74,7 @@ python -m frequent_email_summarizer \
 
 ## Privacy
 
-Before sending email content to Gemini for summarization, the application automatically redacts personally identifying information (PII) including:
+Before sending email content to the local LLM for summarization, the application automatically redacts personally identifying information (PII) including:
 
 - Email addresses (except the known sender)
 - Phone numbers
